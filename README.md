@@ -56,6 +56,6 @@ The following tools must be available as modules on your cluster:
 
 ### Notes
 
-- R1/R2 FASTQ files must follow the naming pattern `*_R1_cat.fastq.gz` / `*_R2_cat.fastq.gz`. Update the script if your files are named differently.
+- R1/R2 FASTQ files must follow the naming pattern `"$READS_DIR"/*_R1_cat.fastq.gz` / `"$READS_DIR"/*_R2_cat.fastq.gz`. Update the script if your files are named differently.
 - **Full paths** must be provided for the reads directory, output directory, and reference genome file, otherwise the generated SLURM scripts will be incorrect.
 - The script automatically submits the generated SLURM job for each sample unless an error occurs.
