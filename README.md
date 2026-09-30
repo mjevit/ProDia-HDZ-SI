@@ -1,6 +1,9 @@
 # ProDia-HDZ-SI
 
-Scripts used in the analysis pipeline for a publication paper. This repository stores utilities for processing Illumina sequencing reads through quality trimming, alignment, and variant calling on an HPC/SLURM cluster.
+Scripts used in the analysis pipeline for a publication paper. This repository stores utilities for processing Illumina sequencing reads through quality trimming, alignment, and variant calling on an HPC/SLURM cluster. 
+
+!!!Important!!!
+As this script is written it is designed to be run on the SWAN HPRC at University of Nebraska-Lincoln, running on other HPRC may require editting.
 
 ## Contents
 
